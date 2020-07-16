@@ -30,7 +30,9 @@ A  method named  addStock that returns total stock statistics . The method accep
 22)  a) Differentiate between the constructors and methods in Java?
      b)What is the difference between this() and super() in Java?
 23) What is method overloading and method overriding?With Example Program  
-24). Encapsulation : Create a package called “com.exam.encapsulation”.
+
+24) Encapsulation : Create a package called “com.exam.encapsulation”.
+
 Create a class called student with following properties/fields with
 getter setters.
 
@@ -43,13 +45,13 @@ student object and assign name , age and department. Print out these
 details with System.out.println().
 
 
-25). Create a interface called fruit with 2 methods isSweet and
+25) Create a interface called fruit with 2 methods isSweet and
 isPoisonous. Create 2 classes called Apple and PoisonBerry which
 implement this interface and override the methods.
 Create a Main Method to create objects for apple & PoisonBerry to get the result
 
 
-26). Create a class called Department. It should have 3 constructors.  it
+26) Create a class called Department. It should have 3 constructors.  it
 will have 3 properties/fields deptName, id, location.
 
 1st constructor does not take any arguments.
@@ -57,7 +59,7 @@ will have 3 properties/fields deptName, id, location.
 3rd constructor takes leapt name , id and location as parameters 
 Pass the Parameters Values and Print the result
 
-27).FizzBuzz Program
+27) FizzBuzz Program
   given number n .. print the values from 1 to n 
   if the number is multiple of 3 print fizz
   if the number is multiple of 5 print buzz
