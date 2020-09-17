@@ -65,6 +65,19 @@ Pass the Parameters Values and Print the result
   if the number is multiple of 5 print buzz
   if the number is multiple of both 3 and 5 print fizzbuzz
   otherwise print the number itself
+  ##21. Create package called “com.exam.exceptions”.(5)
+
+28) Create 3 custom exceptions  classes called NumberTooLargeException and
+NumberTooSmallException and ZeroNumberException
+write a class called ExceptionExample with main method. Accept a
+number from user and print “Allocated Memory” if the number is less than or equal to 10000. Or
+throw NumberTooSmallException if number is negative and
+NumberTooLargeException if number is bigger than 10000. and ZeroNumberException if number is zero
+
+29).creating a custom exception class with name AgeDoesnotMatchException.Another class Student contains two private variables name, age and, a parameterized constructor which initializes the instance variables.(10)
+Form the main method we are accepting name and age values from user and initializing Student class by passing the accepted values.
+In the constructor of the Student class we have created an object of the exception AgeDoesnotMatchException and raised the exception (using throws) if the age value is between 17 and 24.  Output : On executing this program, you need to pass name and age values from keyboard. If the given age value id not between 17 and 24 then exception occurs
+
   
 
 
