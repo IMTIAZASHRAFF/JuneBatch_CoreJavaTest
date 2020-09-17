@@ -65,7 +65,7 @@ Pass the Parameters Values and Print the result
   if the number is multiple of 5 print buzz
   if the number is multiple of both 3 and 5 print fizzbuzz
   otherwise print the number itself
-  ##21. Create package called “com.exam.exceptions”.(5)
+  ##21. Create package called “com.exam.exceptions”.
 
 28) Create 3 custom exceptions  classes called NumberTooLargeException and
 NumberTooSmallException and ZeroNumberException
@@ -74,10 +74,34 @@ number from user and print “Allocated Memory” if the number is less than or 
 throw NumberTooSmallException if number is negative and
 NumberTooLargeException if number is bigger than 10000. and ZeroNumberException if number is zero
 
-29).creating a custom exception class with name AgeDoesnotMatchException.Another class Student contains two private variables name, age and, a parameterized constructor which initializes the instance variables.(10)
+29) creating a custom exception class with name AgeDoesnotMatchException.Another class Student contains two private variables name, age and, a parameterized constructor which initializes the instance variables.
 Form the main method we are accepting name and age values from user and initializing Student class by passing the accepted values.
 In the constructor of the Student class we have created an object of the exception AgeDoesnotMatchException and raised the exception (using throws) if the age value is between 17 and 24.  Output : On executing this program, you need to pass name and age values from keyboard. If the given age value id not between 17 and 24 then exception occurs
 
-  
+30) An Interface named Company has the following methods
+
+- Void assignSalaries(int[] salaries);
+- Void averageSalary();
+- Void maxSalary();
+- Void minSalary();
+
+Create 2 classes EngineerFirm and AccountantFirm that implement the Company Interface. The details of these classes follow
+
+a). Class EngineerFirm should have variable type int[] income it should implement the following methods.
+    1. EngineerFirm(int n)
+        1. Initialize that empty array income of length n where n is the number of engineers.
+    2. Void assignSalaries(int[] salaries) Assigns the salaries in array salaries to income array.
+        1. If the number of elements differ then throw exception that the salaries do not match employees.
+    3. Void maxSalary() : this function will calculate the max salary in that firm. 
+    4. Void minSalary(): this function will calculate the min salary in that firm.
+
+b). Class AccountantFirm should have variable type int[] income it should implement the following methods.
+    1. AccountantFirm(int n)
+        1. Initialize that empty array income of length n where n is the number of Accountants.
+    2. Void assignSalaries(int[] salaries) Assigns the salaries in array salaries to income array.
+        1. If the number of elements differ then throw exception that the salaries do not match employees.
+    3. Void maxSalary() : this function will calculate the max salary in that firm. 
+    4. Void minSalary(): this function will calculate the min salary in that firm.
+
 
 
